@@ -1,0 +1,115 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+  list-style: none;
+}
+
+body{
+  background-color: royalblue;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 600px;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.list {
+  background-color: rgb(255, 255, 255);
+  height: 100%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 20px;
+  overflow: auto;
+}
+
+ul {
+  padding: 10px;
+  text-align: start;
+  font-size: 1.4em;
+}
+
+.list li{
+  background-color: rgb(46, 90, 223);
+  margin: 5px;
+  padding: 20px;
+  font-size: 24px;
+}
+
+
+.inputTask {
+  margin: 0;
+  border: 1px solid black;
+  width: 65%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: royalblue;
+  color: rgb(255, 255, 255);
+  float: right;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+
+.addBtn:hover {
+  background-color: rgb(46, 90, 223);
+}
+
+.inputCheck {
+  margin: 10px;
+}
+
+.work{
+  display: flex;
+  background-color: royalblue;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.work-check{
+  width: 10%;
+  order: -1;
+}
+
+.work-text{
+  font-size: 24px;
+  width: 70%;
+}
+
+.work-delete{
+  text-align: center;
+  width: 30%;
+}
+
+.material-symbols-outlined{
+  cursor: pointer;
+  user-select:none
+}
+
+.material-symbols-outlined:hover{
+  color: tomato;
+}
